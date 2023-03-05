@@ -17,6 +17,7 @@ body {
 
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
+  line-height: 1.5;
 }
 
 .logo {
@@ -34,7 +35,6 @@ body {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
   align-items: center;
   letter-spacing: 0.04em;
 
@@ -47,6 +47,16 @@ body {
 
 .link {
   text-decoration: none;
+}
+
+.title {
+  color: var(--dark-color);
+
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .hidden-title {
@@ -62,7 +72,6 @@ body {
   color: var(--dark-color);
 
   font-weight: 500;
-  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
@@ -82,7 +91,6 @@ body {
 .address-link {
   color: inherit;
 
-  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
@@ -128,36 +136,15 @@ body {
 }
 
 .advantages-item-text {
-  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
 /* ----------------ACTIVITY---------------- */
 
-.activity-title {
-  color: var(--dark-color);
-
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-}
-
 /* ----------------TEAM---------------- */
 
 .team {
   background-color: var(--light-color);
-}
-
-.team-title {
-  color: var(--dark-color);
-
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
 }
 
 .team-item-title {
@@ -171,7 +158,6 @@ body {
 }
 
 .team-item-text {
-  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
 }
@@ -201,7 +187,6 @@ body {
   background-color: var(--accent-color);
 
   font-weight: 500;
-  line-height: 1.5;
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
@@ -228,6 +213,5 @@ body {
 }
 
 .portfolio-item-text {
-  line-height: 1.5;
   letter-spacing: 0.02em;
 }
